@@ -1,0 +1,71 @@
+.container{
+
+    width: 400px;
+    height: 610px;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 3px 0px black;
+    /* display: flex; */
+    margin-bottom: 20px;
+}
+
+.userinfo{
+ 
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.userleft{
+    display: flex;
+}
+.username{
+    margin-top: -10px;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+.time{
+    color: gray;
+    font-weight: 100;
+    margin-top: 1px;
+}
+.image{
+    width: 70px;
+    margin-right: 5px;
+}
+
+.image>img{
+    width: 100%;
+}
+
+.postimage{
+
+    height: 400px;
+}
+
+.postimage>img{
+    width: 100%;
+    height: 100%;
+}
+.postlike{
+    height: 100px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-around;
+}
+
+.userdescription{
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.dot{
+    font-size: 2.5rem;
+    margin-top: -20px;
+    margin-right: 10px;
+    color: gray;
+}
